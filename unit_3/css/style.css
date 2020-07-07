@@ -16,7 +16,7 @@ h1, p {
 	text-decoration: none;
 }
 
-.shortcuts, p {
+div.shortcuts {
 	font-family: 'Oswald', sans-serif;
 	text-transform: uppercase;
 	text-align: center;
