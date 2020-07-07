@@ -15,3 +15,9 @@ h1, p {
 	text-align: right;
 	text-decoration: none;
 }
+
+.shortcuts{
+	font-family: 'Oswald', sans-serif;
+	text-transform: uppercase;
+	text-align: center;
+}
