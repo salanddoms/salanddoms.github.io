@@ -10,4 +10,8 @@ h1, p {
 
 .header-navigation {
 	font-family: 'Oswald', sans-serif;
+	text-transform: uppercase;
+	color: black;
+	text-align: right;
+	text-decoration: none;
 }
