@@ -51,7 +51,3 @@ section {
 	border: 1px black solid;
 	padding: 20px;
 }
-
-.history, h2, p {
-	display: inline-block;
-}
