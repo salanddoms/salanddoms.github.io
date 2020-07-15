@@ -32,6 +32,7 @@ h1, p {
 	background-color: #FFE2B8;
 	border: 1px black solid;
 	padding: 20px;
+	display: inline;
 }
 
 header {
@@ -51,4 +52,3 @@ section {
 	border: 1px black solid;
 	padding: 20px;
 }
-
