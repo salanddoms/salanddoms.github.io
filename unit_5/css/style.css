@@ -4,11 +4,10 @@ body {
 	background-color: white;
 }
 
-.header-navigation {
+.header-navigation, a {
 	font-family: 'Oswald', sans-serif;
 	text-transform: uppercase;
 	color: black;
-	text-align: right;
 	text-decoration: none;
 	display: block;
 	float: right;
