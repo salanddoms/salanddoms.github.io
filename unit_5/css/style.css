@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
 
 body {
-	background-color: green;
+	background-color: white;
 }
 
 .header-navigation {
@@ -10,6 +10,9 @@ body {
 	color: black;
 	text-align: right;
 	text-decoration: none;
+	display: block;
+	float: right;
+	padding: 20px;
 }
 
 .utility{
