@@ -13,11 +13,16 @@ body {
 }
 
 .utility {
-	width: 20%;
+	width: 10%;
+}
+
+header, img{
+	width: 10%;
 }
 
 .shortcuts {
 	font-family: 'Oswald', sans-serif;
 	text-transform: uppercase;
 	text-align: center;
+	width: 10%;
 }
