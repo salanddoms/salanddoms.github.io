@@ -26,3 +26,16 @@ header, img{
 	text-align: center;
 	width: 20%;
 }
+
+.history {
+	display: inline-block;
+	width: 50%;
+}
+
+#image {
+	float: left;
+}
+
+#text {
+	float: right;
+}
