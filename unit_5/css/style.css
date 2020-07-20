@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
 
 body {
-	background-color: white;
+	background-color: green;
 }
 
 .header-navigation {
@@ -38,4 +38,13 @@ header, img{
 
 #text {
 	float: right;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: "";
+	clear: both;
+	height: 0;
 }
