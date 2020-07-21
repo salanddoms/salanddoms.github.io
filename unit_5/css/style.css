@@ -46,7 +46,7 @@ p {
 	text-align: center;
 	color: black;
 	width: 15%;
-	display: block;
+	display: inline-block;
 	float: none;
 }
 
