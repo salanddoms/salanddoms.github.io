@@ -44,6 +44,7 @@ p {
 	font-family: 'Oswald', sans-serif;
 	text-transform: uppercase;
 	text-align: center;
+	text-decoration: none;
 	color: black;
 	width: 15%;
 	display: inline-block;
@@ -51,10 +52,12 @@ p {
 }
 
 #image {
+	display: inline-block;
 	float: left;
 }
 
 #text {
+	display: inline-block;
 	float: right;
 }
 
