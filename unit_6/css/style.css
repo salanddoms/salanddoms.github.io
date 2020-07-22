@@ -84,6 +84,13 @@ header img{
 	float: right;
 }
 
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	content: "";
+	clear: both;
+}
+
 .products img {
 	width: 15%;
 }
