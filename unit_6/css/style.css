@@ -32,6 +32,7 @@ p {
 	text-transform: uppercase;
 	color: black;
 	text-decoration: none;
+	text-align: right;
 	display: inline;
 }
 
