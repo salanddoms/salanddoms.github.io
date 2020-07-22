@@ -23,10 +23,6 @@ p {
 	font-family: 'Raleway', sans-serif;
 }
 
-header {
-	display: inline;
-}
-
 .logo {
 	width: 20%;
 }
@@ -52,13 +48,12 @@ header {
 	color: #808080; 
 }
 
-.shortcuts a p {
+.shortcuts a p{
 	font-family: 'Oswald', sans-serif;
 	text-transform: uppercase;
 	text-decoration: none;
 	color: black;
-	width: 10%;
-	display: inline-block;
+	width: 15%;
 }
 
 .shortcuts a p:hover{ 
@@ -76,7 +71,7 @@ header {
 }
 
 .products {
-	width: 10%;
+	width: 15%;
 }
 
 .footer-navigation a{
