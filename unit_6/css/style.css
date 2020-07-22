@@ -27,7 +27,7 @@ p {
 	width: 10%;
 }
 
-.header-navigation a{
+.header-navigation{
 	font-family: 'Oswald', sans-serif;
 	text-transform: uppercase;
 	color: black;
