@@ -24,7 +24,7 @@ p {
 }
 
 .logo {
-	width: 15%;
+	width: 10%;
 }
 
 .header-navigation a{
@@ -40,22 +40,22 @@ p {
 }
 
 .utility{
-	width: 10%;
+	width: 5%;
 }
 
 .utility a:hover{ 
 	color: #808080; 
 }
 
-.shortcuts a, p{
+.shortcuts a p{
 	font-family: 'Oswald', sans-serif;
 	text-transform: uppercase;
 	text-decoration: none;
 	color: black;
-	width: 15%;
+	width: 10%;
 }
 
-.shortcuts a, p:hover{ 
+.shortcuts a p:hover{ 
 	color: #808080; 
 }
 
@@ -85,7 +85,7 @@ p {
 }
 
 .footer-logo{
-	width: 15%;
+	width: 10%;
 }
 
 .social {
