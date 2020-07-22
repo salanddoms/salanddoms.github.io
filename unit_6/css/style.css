@@ -28,10 +28,8 @@ header img{
 }
 
 .utility{
-	display: inline;
 	float: right;
 	clear: both;
-	width: 50%;
 }
 
 .utility a:hover{ 
