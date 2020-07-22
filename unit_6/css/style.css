@@ -28,11 +28,12 @@ header img{
 }
 
 .utility{
+	display: inline-block;
 	float: right;
 	clear: both;
 }
 
-.utility a:hover{ 
+.utility img:hover{ 
 	color: #808080; 
 }
 
