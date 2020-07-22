@@ -49,6 +49,10 @@ header {
 	float: right;
 }
 
+.utility a:hover{ 
+	color: #808080; 
+}
+
 .shortcuts a p {
 	font-family: 'Oswald', sans-serif;
 	text-transform: uppercase;
@@ -71,15 +75,6 @@ header {
 #text {
 	display: inline-block;
 	float: right;
-}
-
-.clearfix:after {
-	visibility: hidden;
-	display: block;
-	font-size: 0;
-	content: "";
-	clear: both;
-	height: 0;
 }
 
 .products {
