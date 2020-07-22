@@ -46,7 +46,6 @@ header img{
 	text-transform: uppercase;
 	color: black;
 	text-decoration: none;
-	padding: 10px;
 }
 
 .header-navigation a:hover{ 
@@ -86,8 +85,10 @@ header img{
 .clearfix:after {
 	visibility: hidden;
 	display: block;
-	content: "";
+	font-size: 0;
+	content: " ";
 	clear: both;
+	height: 0;
 }
 
 .products img {
