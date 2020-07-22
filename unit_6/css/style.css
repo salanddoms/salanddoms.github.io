@@ -31,6 +31,7 @@ header img{
 	display: inline;
 	float: right;
 	clear: both;
+	padding: 5px;
 }
 
 .utility a:hover{ 
@@ -57,7 +58,6 @@ header img{
 	text-transform: uppercase;
 	text-decoration: none;
 	color: black;
-	float: left;
 }
 
 .shortcuts a p:hover{ 
