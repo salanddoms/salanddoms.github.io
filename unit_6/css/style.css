@@ -24,7 +24,7 @@ p {
 }
 
 .logo {
-	width: 20%;
+	width: 15%;
 }
 
 .header-navigation a{
@@ -41,7 +41,6 @@ p {
 
 .utility{
 	width: 10%;
-	display: inline;
 }
 
 .utility a:hover{ 
