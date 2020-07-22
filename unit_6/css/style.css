@@ -48,7 +48,7 @@ p {
 	color: #808080; 
 }
 
-.shortcuts a p{
+.shortcuts a, p{
 	font-family: 'Oswald', sans-serif;
 	text-transform: uppercase;
 	text-decoration: none;
@@ -56,7 +56,7 @@ p {
 	width: 15%;
 }
 
-.shortcuts a p:hover{ 
+.shortcuts a, p:hover{ 
 	color: #808080; 
 }
 
