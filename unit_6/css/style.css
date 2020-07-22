@@ -60,12 +60,10 @@ p {
 }
 
 #image {
-	display: inline-block;
 	float: left;
 }
 
 #text {
-	display: inline-block;
 	float: right;
 }
 
