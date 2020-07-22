@@ -28,7 +28,7 @@ header img{
 }
 
 .utility{
-	display: inline-block;
+	display: inline;
 	float: right;
 	clear: both;
 }
@@ -58,6 +58,7 @@ header img{
 	text-transform: uppercase;
 	text-decoration: none;
 	color: black;
+	float: left;
 }
 
 .shortcuts a p:hover{ 
@@ -115,7 +116,6 @@ footer img{
 
 .social{
 	display: inline;
-	padding: 10%;
 }
 
 .social img{
