@@ -39,8 +39,9 @@ header img {
 	color: #808080; 
 }
 
-.utility a{
-	width: 10%;
+.utility{
+	display: inline;
+	float: right;
 }
 
 .utility a:hover{ 
