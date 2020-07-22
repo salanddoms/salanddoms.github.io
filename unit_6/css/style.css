@@ -23,7 +23,7 @@ p {
 	font-family: 'Raleway', sans-serif;
 }
 
-.logo {
+header img {
 	width: 10%;
 }
 
@@ -39,7 +39,7 @@ p {
 	color: #808080; 
 }
 
-.utility{
+.utility a{
 	width: 10%;
 }
 
