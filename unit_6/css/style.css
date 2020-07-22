@@ -30,7 +30,7 @@ header img{
 .utility{
 	float: right;
 	clear:both;
-	margin: 0 auto;
+	display: inline;
 }
 
 .utility img{
