@@ -40,7 +40,7 @@ p {
 }
 
 .utility{
-	width: 5%;
+	width: 2em;
 }
 
 .utility a:hover{ 
@@ -53,6 +53,7 @@ p {
 	text-decoration: none;
 	color: black;
 	width: 10%;
+	display: inline-block;
 }
 
 .shortcuts a p:hover{ 
