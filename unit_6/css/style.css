@@ -28,7 +28,7 @@ header img{
 }
 
 .utility{
-	display: inline;
+	display: inline-block;
 	float: right;
 	width: 20%;
 	clear: both;
@@ -47,7 +47,7 @@ header img{
 	text-transform: uppercase;
 	color: black;
 	text-decoration: none;
-	padding: 20px;
+	padding: 10px;
 }
 
 .header-navigation a:hover{ 
@@ -60,7 +60,6 @@ header img{
 	text-transform: uppercase;
 	text-decoration: none;
 	color: black;
-	width: 10%;
 }
 
 .shortcuts a p:hover{ 
@@ -105,7 +104,7 @@ header img{
 	color: #808080; 
 }
 
-.footer img{
+footer img{
 	width: 10%;
 }
 
