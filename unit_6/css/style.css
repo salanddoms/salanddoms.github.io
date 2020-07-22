@@ -31,7 +31,7 @@ header img{
 	display: inline;
 	float: right;
 	clear: both;
-	padding: 5px;
+	width: 50%;
 }
 
 .utility a:hover{ 
