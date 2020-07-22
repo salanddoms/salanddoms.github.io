@@ -42,7 +42,7 @@ header img{
 	color: black;
 	text-decoration: none;
 	display: inline-block;
-	padding: 1em 2em;
+	padding: 0em 1em;
 }
 
 .header-navigation a:hover{ 
@@ -50,6 +50,7 @@ header img{
 }
 
 .shortcuts{
+	display: inline-block;
 	float: left;
 }
 
@@ -65,7 +66,7 @@ header img{
 }
 
 .shortcuts img{
-	width: 12%;
+	width: 15%;
 }
 
 .history{
