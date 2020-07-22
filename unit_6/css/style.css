@@ -42,6 +42,7 @@ header img {
 .utility{
 	display: inline;
 	float: right;
+	width: 20%;
 }
 
 .utility a:hover{ 
