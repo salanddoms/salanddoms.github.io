@@ -35,18 +35,22 @@ p {
 	display: inline;
 }
 
+.header-navigation a:hover{ 
+	color: #808080; 
+}
+
 .utility{
 	width: 10%;
 	float: right;
 }
 
-.shortcuts a {
+.shortcuts a p {
 	font-family: 'Oswald', sans-serif;
 	text-transform: uppercase;
 	text-align: center;
 	text-decoration: none;
 	color: black;
-	width: 15%;
+	width: 10%;
 }
 
 #image {
@@ -69,7 +73,7 @@ p {
 }
 
 .products {
-	width: 15%;
+	width: 10%;
 }
 
 .footer-navigation, a{
