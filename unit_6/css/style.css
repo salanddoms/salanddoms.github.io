@@ -30,7 +30,6 @@ header img{
 .utility{
 	display: inline-block;
 	float: right;
-	width: 20%;
 	clear: both;
 }
 
@@ -53,7 +52,6 @@ header img{
 .header-navigation a:hover{ 
 	color: #808080; 
 }
-
 
 .shortcuts a p{
 	font-family: 'Oswald', sans-serif;
@@ -117,6 +115,7 @@ footer img{
 
 .social{
 	display: inline;
+	padding: 10%;
 }
 
 .social img{
