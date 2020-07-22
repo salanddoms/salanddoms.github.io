@@ -32,8 +32,8 @@ header img{
 	text-transform: uppercase;
 	color: black;
 	text-decoration: none;
-	padding: 20px;
-	display: inline;
+	padding: 1em 2em;
+	display: inline-block;
 }
 
 .header-navigation a:hover{ 
