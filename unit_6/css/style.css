@@ -30,6 +30,7 @@ header img{
 .utility{
 	display: inline-block;
 	float: right;
+	width: 50%
 }
 
 .utility img{
@@ -50,7 +51,7 @@ header img{
 }
 
 .shortcuts{
-	display: inline-block;
+	display: inline;
 	float: left;
 }
 
