@@ -68,7 +68,18 @@ header img{
 }
 
 .history{
+	width: 46%;
+	padding: 2%;
+	display: inline-block;
+}
+
+#image {
 	float: left;
+	width: 20%;
+}
+
+#text {
+	float: right;
 }
 
 .clearfix:after {
