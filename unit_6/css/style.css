@@ -41,6 +41,7 @@ p {
 
 .utility{
 	width: 10%;
+	display: inline;
 	float: right;
 }
 
