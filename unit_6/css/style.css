@@ -49,6 +49,10 @@ header img{
 	color: #808080; 
 }
 
+.shortcuts{
+	float: left;
+}
+
 .shortcuts a p{
 	font-family: 'Oswald', sans-serif;
 	text-transform: uppercase;
