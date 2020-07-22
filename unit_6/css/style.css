@@ -28,9 +28,7 @@ header img{
 }
 
 .utility{
-	display: inline-block;
 	float: right;
-	width: 50%
 }
 
 .utility img{
@@ -43,7 +41,6 @@ header img{
 	color: black;
 	text-decoration: none;
 	display: inline-block;
-	padding: 0em 1em;
 }
 
 .header-navigation a:hover{ 
