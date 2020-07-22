@@ -27,6 +27,21 @@ header img{
 	width: 15%;
 }
 
+.utility{
+	display: inline;
+	float: right;
+	width: 20%;
+	clear: both;
+}
+
+.utility a:hover{ 
+	color: #808080; 
+}
+
+.utility img{
+	width: 10%;
+}
+
 .header-navigation a{
 	font-family: 'Oswald', sans-serif;
 	text-transform: uppercase;
@@ -40,19 +55,6 @@ header img{
 	color: #808080; 
 }
 
-.utility{
-	display: inline;
-	float: right;
-	width: 20%;
-}
-
-.utility a:hover{ 
-	color: #808080; 
-}
-
-.utility img{
-	width: 10%;
-}
 
 .shortcuts a p{
 	font-family: 'Oswald', sans-serif;
@@ -64,6 +66,10 @@ header img{
 
 .shortcuts a p:hover{ 
 	color: #808080; 
+}
+
+.shortcuts img{
+	width: 15%;
 }
 
 #image {
