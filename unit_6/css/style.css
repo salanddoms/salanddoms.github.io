@@ -47,6 +47,7 @@ header img{
 	text-transform: uppercase;
 	color: black;
 	text-decoration: none;
+	padding: 20px;
 }
 
 .header-navigation a:hover{ 
@@ -67,7 +68,13 @@ header img{
 }
 
 .shortcuts img{
-	width: 15%;
+	width: 12%;
+}
+
+.history{
+	width: 46%;
+	padding: 2%;
+	display: inline-block;
 }
 
 #image {
@@ -98,11 +105,15 @@ header img{
 	color: #808080; 
 }
 
-.footer-logo{
+.footer img{
 	width: 10%;
 }
 
-.social {
+.social{
+	display: inline;
+}
+
+.social img{
 	width: 10%;
 }
 
