@@ -23,8 +23,12 @@ p {
 	font-family: 'Raleway', sans-serif;
 }
 
+header {
+	display: inline-block;
+}
+
 .logo {
-	width: 10%;
+	width: 100px;
 }
 
 .header-navigation a {
@@ -51,7 +55,12 @@ p {
 	text-align: center;
 	text-decoration: none;
 	color: black;
+	display: inline-block;
 	width: 10%;
+}
+
+.shortcuts a:hover{ 
+	color: #808080; 
 }
 
 #image {
