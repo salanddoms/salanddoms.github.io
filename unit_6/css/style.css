@@ -78,8 +78,13 @@ header img{
 	float: right;
 }
 
+.products img {
+	width: 15%;
+}
+
 .products {
-	width: 10%;
+	display: inline;
+	float: left;
 }
 
 .footer-navigation a{
