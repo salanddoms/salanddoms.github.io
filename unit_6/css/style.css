@@ -24,11 +24,11 @@ p {
 }
 
 header {
-	display: inline-block;
+	display: inline;
 }
 
 .logo {
-	width: 100px;
+	width: 50px;
 }
 
 .header-navigation a {
@@ -46,7 +46,6 @@ header {
 .utility{
 	width: 10%;
 	display: inline;
-	float: right;
 }
 
 .utility a:hover{ 
@@ -56,14 +55,13 @@ header {
 .shortcuts a p {
 	font-family: 'Oswald', sans-serif;
 	text-transform: uppercase;
-	text-align: center;
 	text-decoration: none;
 	color: black;
-	display: inline-block;
 	width: 10%;
+	display: inline-block;
 }
 
-.shortcuts a:hover{ 
+.shortcuts a p:hover{ 
 	color: #808080; 
 }
 
