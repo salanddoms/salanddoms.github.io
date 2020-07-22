@@ -30,7 +30,6 @@ header img{
 .utility{
 	float: right;
 	clear:both;
-	display: inline;
 }
 
 .utility img{
@@ -69,17 +68,7 @@ header img{
 }
 
 .history{
-	width: 46%;
-	padding: 2%;
-	display: inline-block;
-}
-
-#image {
 	float: left;
-}
-
-#text {
-	float: right;
 }
 
 .clearfix:after {
