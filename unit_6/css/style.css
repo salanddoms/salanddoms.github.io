@@ -27,7 +27,7 @@ header img{
 	width: 15%;
 }
 
-.utility{
+.utility a{
 	float: right;
 }
 
@@ -50,6 +50,7 @@ header img{
 	color: black;
 	text-decoration: none;
 	display: inline-block;
+	padding: 1em 2em;
 }
 
 .header-navigation a:hover{ 
