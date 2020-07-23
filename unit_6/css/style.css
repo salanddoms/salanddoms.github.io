@@ -29,6 +29,7 @@ header img{
 }
 
 .utility{
+	display: inline-block;
 	float: right;
 	width: 50%;
 }
