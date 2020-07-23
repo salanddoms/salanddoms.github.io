@@ -29,9 +29,7 @@ header img{
 }
 
 .utility{
-	display: inline;
 	float: right;
-	width: 50%;
 }
 
 .clearfix:after {
