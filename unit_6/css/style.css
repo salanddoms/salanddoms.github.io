@@ -29,7 +29,7 @@ header img{
 }
 
 .utility{
-	display: inline-block;
+	display: inline;
 	float: right;
 	width: 50%;
 }
