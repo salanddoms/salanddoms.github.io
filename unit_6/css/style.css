@@ -81,6 +81,10 @@ header img{
 	display: inline-block;
 }
 
+.history img{
+	width: 30%
+}
+
 #image {
 	float: left;
 }
