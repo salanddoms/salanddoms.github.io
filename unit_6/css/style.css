@@ -69,6 +69,7 @@ header img{
 }
 
 .shortcuts{
+	display: inline-block;
 	float: left;
 }
 
