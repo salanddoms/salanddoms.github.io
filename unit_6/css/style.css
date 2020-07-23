@@ -30,7 +30,7 @@ header img{
 
 .utility{
 	float: right;
-	width: 40%;
+	width: 50%;
 }
 
 .clearfix:after {
@@ -52,7 +52,7 @@ header img{
 	color: black;
 	text-decoration: none;
 	display: inline-block;
-	padding: 1em 1em;
+	padding: 1em 0.5em;
 }
 
 .header-navigation a:hover{ 
@@ -82,10 +82,6 @@ header img{
 	width: 46%;
 	padding: 2%;
 	display: inline-block;
-}
-
-.history img{
-	width: 50%
 }
 
 #image {
