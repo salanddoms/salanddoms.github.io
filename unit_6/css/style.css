@@ -80,6 +80,12 @@ header img{
 	color: white;
 }
 
+.btn a{
+	font-family: 'Oswald', sans-serif;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
 .shortcuts a p{
 	font-family: 'Oswald', sans-serif;
 	text-transform: uppercase;
@@ -95,7 +101,7 @@ header img{
 .shortcuts a{
 	display: inline-block;
 	float: left;
-	width: 100%;
+	width: 40%;
 	margin: (0, auto);
 }
 
