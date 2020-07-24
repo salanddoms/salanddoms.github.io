@@ -118,6 +118,7 @@ header img{
 
 .history{
 	display: inline-block;
+	float: left;
 }
 
 #image {
