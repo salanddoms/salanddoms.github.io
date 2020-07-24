@@ -62,10 +62,6 @@ header img{
 	color: #808080; 
 }
 
-.shortcuts{
-	float: left;
-}
-
 .shortcuts a p{
 	font-family: 'Oswald', sans-serif;
 	text-transform: uppercase;
@@ -75,6 +71,7 @@ header img{
 
 .shortcuts a{
 	display: inline-block;
+	float: left;
 }
 
 .shortcuts a p:hover{ 
@@ -135,6 +132,7 @@ footer img{
 
 .social{
 	display: inline;
+	float: right;
 }
 
 .social img{
