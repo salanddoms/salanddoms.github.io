@@ -62,8 +62,7 @@ header img{
 	color: #808080; 
 }
 
-.hero-image{
-	background-image: url("...images/bakerybanner.png");
+.hero-image img{
 	height: 50%;
 	background-position: center;
 	background-repeat: no-repeat;
