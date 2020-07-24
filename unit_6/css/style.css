@@ -86,6 +86,10 @@ header img{
 	color: black;
 }
 
+.shortcuts{
+	float: left;
+}
+
 .shortcuts a{
 	display: inline-block;
 	float: left;
