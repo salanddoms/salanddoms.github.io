@@ -70,7 +70,7 @@ header img{
 }
 
 .shortcuts a{
-	display: inline-block;
+	display: inline;
 	float: left;
 }
 
@@ -131,7 +131,6 @@ footer img{
 }
 
 .social{
-	display: inline;
 	float: right;
 }
 
