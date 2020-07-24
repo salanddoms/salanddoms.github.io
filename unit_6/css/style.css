@@ -89,6 +89,9 @@ header img{
 	text-transform: uppercase;
 	text-decoration: none;
 	color: black;
+}
+
+.shortcuts a{
 	display: inline-block;
 }
 
