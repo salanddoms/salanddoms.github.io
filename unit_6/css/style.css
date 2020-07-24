@@ -101,8 +101,7 @@ header img{
 .shortcuts a{
 	display: inline-block;
 	float: left;
-	width: 40%;
-	margin: (0, auto);
+	width: 30%;
 }
 
 .clearfix:after {
