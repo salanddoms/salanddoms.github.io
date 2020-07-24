@@ -81,7 +81,7 @@ header img{
 }
 
 .shortcuts{
-	display: inline;
+	float: left;
 }
 
 .shortcuts a p{
