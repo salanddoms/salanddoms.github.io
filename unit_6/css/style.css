@@ -139,7 +139,7 @@ header img{
 }
 
 .products {
-	display: inline;
+	display: inline-block;
 }
 
 .footer-navigation{
