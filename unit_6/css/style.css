@@ -121,14 +121,6 @@ header img{
 	float: left;
 }
 
-#image {
-	float: left;
-}
-
-#text {
-	float: right;
-}
-
 .clearfix:after {
 	visibility: hidden;
 	display: block;
