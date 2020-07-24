@@ -132,6 +132,10 @@ header img{
 	display: inline;
 }
 
+.footer-navigation{
+	float: right;
+}
+
 .footer-navigation a{
 	font-family: 'Oswald', sans-serif;
 	text-transform: uppercase;
