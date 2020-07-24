@@ -95,6 +95,7 @@ header img{
 .shortcuts a{
 	display: inline-block;
 	float: left;
+	width: 100%;
 	margin: (0, auto);
 }
 
@@ -117,7 +118,6 @@ header img{
 
 .history{
 	display: inline;
-	float: left;
 }
 
 .clearfix:after {
