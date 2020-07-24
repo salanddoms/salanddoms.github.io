@@ -63,7 +63,7 @@ header img{
 }
 
 .shortcuts{
-	float: left;
+	display: inline;
 }
 
 .shortcuts a p{
