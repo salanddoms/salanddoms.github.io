@@ -142,6 +142,7 @@ header img{
 
 .products {
 	display: inline-block;
+	float: left;
 }
 
 .footer-navigation{
