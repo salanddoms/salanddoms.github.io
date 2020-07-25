@@ -31,6 +31,7 @@ p {
 header img{
 	width: 15%;
 	float: left;
+	padding-top: 5px;
 }
 
 .utility{
@@ -52,6 +53,7 @@ header img{
 
 .header-navigation{
 	float: left;
+	padding-top: 15px;
 }
 
 .clearfix:after {
