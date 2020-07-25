@@ -37,7 +37,7 @@ header img{
 .utility{
 	float: right;
 	margin-top: 30px;
-	margin-left: 50px;
+	margin-left: 80px;
 }
 
 .clearfix:after {
@@ -50,7 +50,7 @@ header img{
 }
 
 .utility img{
-	width: 10%;
+	width: 5%;
 }
 
 .header-navigation{
@@ -161,13 +161,23 @@ header img{
 	font-family: 'Oswald', sans-serif;
 	text-transform: uppercase;
 	text-decoration: none;
-	color: white;
+	color: green;
+	background-color: white;
 	font-size: 2em;
+}
+
+#btn a p:hover{ 
+	color: white;
+	background-color: green; 
 }
 
 .history{
 	display: inline;
 	float: left;
+}
+
+.history img{
+	width: 50%;
 }
 
 #text{
@@ -231,13 +241,13 @@ footer img{
 
 .social{
 	float: right;
-	margin-right: 30px;
+	margin-left: 80px;
 }
 
 .social img{
 	width: 10%;
 }
 
-.social a:hover{ 
+.social img:hover{ 
 	color: #808080; 
 }
