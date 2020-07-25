@@ -66,7 +66,7 @@ header img{
 }
 
 .hero-image{
-	width: 50%
+	width: 30%
 	height: 50%;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -138,14 +138,20 @@ header img{
 	text-align: bottom-right;
 	position: absolute;
 	bottom: 8px;
-	right: : 16px;
-	transform: translate(-50%,-50%);
+	right: 16px;
 	color: white;
 }
 
 .history{
 	display: inline;
+}
+
+#image{
 	float: left;
+}
+
+#text{
+	float: right;
 }
 
 .clearfix:after {
