@@ -68,6 +68,7 @@ header img{
 	text-decoration: none;
 	display: inline-block;
 	padding: 5px;
+	padding-top: 8px;
 }
 
 .header-navigation a:hover{ 
@@ -75,6 +76,7 @@ header img{
 }
 
 .hero-image{
+	background-image: linear-gradient(rgba(0,0,0,0,5), rgba(0,0,0,0.5));
 	height: 50%;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -137,6 +139,10 @@ header img{
 	background-repeat: no-repeat;
 	background-size: cover;
 	position: relative;
+}
+
+.getting-married img{
+	width: 100px;
 }
 
 .married-text{
