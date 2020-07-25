@@ -66,7 +66,7 @@ header img{
 }
 
 .hero-image{
-	width: 30%
+	background: url('heroimage.jpg');
 	height: 50%;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -147,10 +147,12 @@ header img{
 }
 
 #image{
+	display: inline;
 	float: left;
 }
 
 #text{
+	display: inline;
 	float: right;
 }
 
