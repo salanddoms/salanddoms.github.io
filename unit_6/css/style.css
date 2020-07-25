@@ -66,6 +66,7 @@ header img{
 }
 
 .hero-image{
+	width: 50%
 	height: 50%;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -82,7 +83,7 @@ header img{
 	color: white;
 }
 
-.btn p{
+.btn{
 	font-family: 'Oswald', sans-serif;
 	text-transform: uppercase;
 	text-decoration: none;
@@ -125,26 +126,26 @@ header img{
 	width: 15%;
 }
 
-.getting-married btn{
+.getting-married{
 	height: 50%;
-	background-position: bottom-right;
+	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
 	position: relative;
-	color: white;
 }
 
 .married-text{
-	text-align: center;
+	text-align: bottom-right;
 	position: absolute;
-	top: 50%;
-	left: 50%;
+	bottom: 8px;
+	right: : 16px;
 	transform: translate(-50%,-50%);
 	color: white;
 }
 
 .history{
 	display: inline;
+	float: left;
 }
 
 .clearfix:after {
