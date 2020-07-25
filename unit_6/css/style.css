@@ -36,8 +36,8 @@ header img{
 
 .utility{
 	float: right;
-	margin-top: 15px;
-	margin-left: 30px;
+	margin-top: 30px;
+	margin-left: 50px;
 }
 
 .clearfix:after {
@@ -231,7 +231,7 @@ footer img{
 
 .social{
 	float: right;
-	margin-left: 30px;
+	margin-right: 30px;
 }
 
 .social img{
