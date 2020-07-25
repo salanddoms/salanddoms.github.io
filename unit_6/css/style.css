@@ -79,7 +79,7 @@ header img{
 	color: #808080; 
 }
 
-.hero-image{
+.hero-image img{
 	background-image: linear-gradient(rgba(0,0,0,0,5), rgba(0,0,0,0.5));
 	height: 50%;
 	background-position: center;
