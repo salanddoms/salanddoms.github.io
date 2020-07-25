@@ -2,8 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&family=Ramabhadra&family=Roboto:wght@400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Heebo:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+SC&family=Scheherazade&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+KR&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@300&family=Yantramanav:wght@300&display=swap');
 
 body {
 	background-color: white;
@@ -15,7 +14,7 @@ h1 {
 }
 
 h2 {
-	font-family: 'Noto Serif KR', serif;
+	font-family: 'Yantramanav', sans-serif;
 	font-size: 32px;
 }
 
@@ -50,7 +49,8 @@ header img{
 }
 
 .utility img{
-	width: 5%;
+	width: 7%;
+	margin-top: 15px;
 }
 
 .header-navigation{
@@ -71,6 +71,7 @@ header img{
 	text-transform: uppercase;
 	color: black;
 	text-decoration: none;
+	font-kerning: 5px;
 	display: inline-block;
 	padding: 5px;
 }
@@ -79,8 +80,7 @@ header img{
 	color: #808080; 
 }
 
-.hero-image img{
-	background-image: linear-gradient(rgba(0,0,0,0,5), rgba(0,0,0,0.5));
+.hero-image{
 	height: 50%;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -111,7 +111,7 @@ header img{
 .shortcuts{
 	display: inline-block;
 	float: left;
-	margin: (0,auto);
+	margin: (0, auto);
 }
 
 .shortcuts a{
@@ -159,14 +159,14 @@ header img{
 
 #btn{
 	font-family: 'Oswald', sans-serif;
-	text-transform: uppercase;
 	text-decoration: none;
 	color: green;
 	background-color: white;
 	font-size: 2em;
+	padding: 10px;
 }
 
-#btn a p:hover{ 
+#btn:hover{ 
 	color: white;
 	background-color: green; 
 }
@@ -177,7 +177,7 @@ header img{
 }
 
 .history img{
-	width: 50%;
+	width: 30%;
 }
 
 #text{
