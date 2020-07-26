@@ -260,6 +260,15 @@ footer img{
 	margin-left: 80px;
 }
 
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+
 .social img{
 	width: 10%;
 }
