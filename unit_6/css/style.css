@@ -185,6 +185,7 @@ header img{
 #text{
 	display: inline;
 	float: right;
+	width: 30%;
 }
 
 .clearfix:after {
@@ -215,7 +216,7 @@ header img{
 }
 
 footer{
-	background-color: #424242;
+	background-color: #636366;
 }
 
 .footer-navigation{
