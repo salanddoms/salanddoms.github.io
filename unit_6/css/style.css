@@ -164,7 +164,7 @@ header img{
 	color: green;
 	background-color: white;
 	font-size: 2em;
-	padding: 15px;
+	padding: (10px, 15px);
 }
 
 #btn:hover{ 
