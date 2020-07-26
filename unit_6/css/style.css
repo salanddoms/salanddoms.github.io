@@ -51,7 +51,7 @@ header img{
 .utility img{
 	width: 7%;
 	padding-left: 5px;
-	margin-top: 10px;
+	margin-top: 5px;
 }
 
 .header-navigation{
@@ -213,7 +213,7 @@ header img{
 }
 
 footer{
-	background-color: green;
+	background-color: #424242;
 }
 
 .footer-navigation{
@@ -238,6 +238,16 @@ footer{
 
 .footer-navigation a:hover{ 
 	color: #808080; 
+}
+
+ul{
+	list-style: none;
+}
+
+li{
+	float: left;
+	width: 50%;
+	height: 6em;
 }
 
 footer img{
