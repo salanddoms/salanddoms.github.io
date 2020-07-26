@@ -165,7 +165,7 @@ header img{
 	color: green;
 	background-color: white;
 	font-size: 2em;
-	padding: (10px, 15px);
+	padding: (10px, 20px);
 }
 
 #btn:hover{ 
@@ -202,6 +202,7 @@ header img{
 
 .products{
 	display: inline;
+	float: left;
 }
 
 .clearfix:after {
@@ -248,7 +249,7 @@ ul{
 li{
 	float: left;
 	width: 50%;
-	height: 6em;
+	height: 1em;
 }
 
 footer img{
