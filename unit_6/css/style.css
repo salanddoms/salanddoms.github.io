@@ -219,9 +219,12 @@ header img{
 	display: inline;
 }
 
+.products div{
+	float: left;
+}
+
 footer{
 	background-color: #636366;
-	width: 4em;
 }
 
 .footer-navigation{
