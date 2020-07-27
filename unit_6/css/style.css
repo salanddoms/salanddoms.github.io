@@ -226,6 +226,7 @@ footer{
 
 .footer-navigation{
 	float: right;
+	background-color: #636366;
 }
 
 .clearfix:after {
@@ -273,6 +274,7 @@ footer img{
 
 .social{
 	float: right;
+	background-color: #636366;
 }
 
 .clearfix:after {
