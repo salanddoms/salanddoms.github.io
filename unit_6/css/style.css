@@ -4,6 +4,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+SC&family=Scheherazade&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Assistant:wght@300&family=Yantramanav:wght@300&display=swap');
 
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
 body {
 	background-color: white;
 }
@@ -58,15 +64,6 @@ header img{
 	float: left;
 }
 
-.clearfix:after {
-	visibility: hidden;
-	display: block;
-	font-size: 0;
-	content: " ";
-	clear: both;
-	height: 0;
-}
-
 .header-navigation a{
 	font-family: 'Oswald', sans-serif;
 	text-transform: uppercase;
@@ -114,26 +111,17 @@ header img{
 }
 
 .shortcuts{
-	display: inline-block;
+	text-align: center;
 }
 
 .shortcuts a{
 	display: inline-block;
-	float: left;
 	width: 25%;
-}
-
-.clearfix:after {
-	visibility: hidden;
-	display: block;
-	font-size: 0;
-	content: " ";
-	clear: both;
-	height: 0;
+	padding: 1em;
 }
 
 .shortcuts img{
-	width: 15%;
+	width: 8em;
 }
 
 .getting-married{
@@ -184,12 +172,8 @@ header img{
 	background-color: green; 
 }
 
-.history{
-	display: inline;
-	float: left;
-}
-
 .history img{
+	float: left;
 	width: 42%;
 	padding: 4%;
 	border-radius: 8px;
@@ -203,21 +187,15 @@ header img{
 	line-height: 2em;
 }
 
-.clearfix:after {
-	visibility: hidden;
-	display: block;
-	font-size: 0;
-	content: " ";
-	clear: both;
-	height: 0;
-}
-
 .products img{
 	width: 15%;
 }
 
-.products{
-	display: inline;
+.products div{
+	width: 25%;
+	float: left;
+	border: 1px solid;
+	padding: 2em;
 }
 
 footer{
@@ -227,15 +205,6 @@ footer{
 .footer-navigation{
 	float: right;
 	background-color: #636366;
-}
-
-.clearfix:after {
-	visibility: hidden;
-	display: block;
-	font-size: 0;
-	content: " ";
-	clear: both;
-	height: 0;
 }
 
 .footer-navigation a{
@@ -259,15 +228,6 @@ li{
 	height: 2em;
 }
 
-.clearfix:after {
-	visibility: hidden;
-	display: block;
-	font-size: 0;
-	content: " ";
-	clear: both;
-	height: 0;
-}
-
 footer img{
 	width: 10%;
 }
@@ -275,15 +235,6 @@ footer img{
 .social{
 	float: right;
 	background-color: #636366;
-}
-
-.clearfix:after {
-	visibility: hidden;
-	display: block;
-	font-size: 0;
-	content: " ";
-	clear: both;
-	height: 0;
 }
 
 .social img{
