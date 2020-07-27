@@ -180,12 +180,14 @@ header img{
 
 .history img{
 	width: 30%;
+	margin-left: 15px;
 }
 
 #text{
 	display: inline;
 	float: right;
 	width: 30%;
+	margin-right: 15px;
 }
 
 .clearfix:after {
@@ -251,6 +253,15 @@ li{
 	float: left;
 	width: 50%;
 	height: 1em;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
 }
 
 footer img{
