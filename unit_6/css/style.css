@@ -163,7 +163,7 @@ header img{
 	font-family: 'Oswald', sans-serif;
 	text-decoration: none;
 	color: green;
-	background-color: white;
+	outline: 3px solid green;
 	font-size: 2em;
 	padding: (10px, 20px);
 }
