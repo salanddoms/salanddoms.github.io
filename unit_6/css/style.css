@@ -166,7 +166,6 @@ header img{
 	color: green;
 	outline: 2px solid green;
 	font-size: 2em;
-	padding: 15px, 20px;
 }
 
 #btn:hover{ 
@@ -180,7 +179,6 @@ header img{
 	text-transform: uppercase;
 	color: green;
 	outline: 2px solid green;
-	padding: 15px, 20px;
 }
 
 #btn-history:hover{ 
@@ -194,13 +192,15 @@ header img{
 }
 
 .history img{
-	width: 50%;
+	width: 46%;
+	padding: 2%;
 }
 
 #text{
 	display: inline;
 	float: right;
-	width: 50%;
+	width: 46%;
+	padding: 2%;
 }
 
 .clearfix:after {
@@ -222,7 +222,6 @@ header img{
 
 footer{
 	background-color: #636366;
-	width: 2em;
 }
 
 .footer-navigation{
