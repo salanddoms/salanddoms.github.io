@@ -112,8 +112,6 @@ header img{
 .shortcuts{
 	display: inline-block;
 	float: left;
-	margin: (0, auto);
-	height: 50%
 }
 
 .shortcuts a{
