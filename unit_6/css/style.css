@@ -252,7 +252,7 @@ ul{
 li{
 	float: left;
 	width: 50%;
-	height: 1em;
+	height: 2em;
 }
 
 .clearfix:after {
