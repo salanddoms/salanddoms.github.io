@@ -166,7 +166,7 @@ header img{
 	color: green;
 	outline: 2px solid green;
 	font-size: 2em;
-	padding: 15px;
+	padding: 15px, 20px;
 }
 
 #btn:hover{ 
@@ -180,15 +180,13 @@ header img{
 }
 
 .history img{
-	width: 30%;
-	margin-left: 20px;
+	width: 50%;
 }
 
 #text{
 	display: inline;
 	float: right;
-	width: 30%;
-	margin-left: 20px;
+	width: 50%;
 }
 
 .clearfix:after {
@@ -210,6 +208,7 @@ header img{
 
 footer{
 	background-color: #636366;
+	width: 2em;
 }
 
 .footer-navigation{
@@ -244,16 +243,9 @@ li{
 	float: left;
 	width: 50%;
 	height: 2em;
+	clear: both;
 }
 
-.clearfix:after {
-	visibility: hidden;
-	display: block;
-	font-size: 0;
-	content: " ";
-	clear: both;
-	height: 0;
-}
 
 footer img{
 	width: 10%;
@@ -261,7 +253,6 @@ footer img{
 
 .social{
 	float: right;
-	margin-left: 80px;
 }
 
 .clearfix:after {
