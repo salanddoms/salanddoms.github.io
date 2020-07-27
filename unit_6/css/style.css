@@ -117,7 +117,7 @@ header img{
 .shortcuts a{
 	display: inline-block;
 	float: left;
-	width: 20%;
+	width: 30%;
 }
 
 .clearfix:after {
@@ -190,15 +190,16 @@ header img{
 }
 
 .history img{
-	width: 46%;
-	padding: 2%;
+	width: 42%;
+	padding: 4%;
 }
 
 #text{
 	display: inline;
 	float: right;
-	width: 46%;
-	padding: 2%;
+	width: 42%;
+	padding: 4%;
+	line-height: 1em;
 }
 
 .clearfix:after {
@@ -254,9 +255,16 @@ li{
 	float: left;
 	width: 50%;
 	height: 2em;
-	clear: both;
 }
 
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
 
 footer img{
 	width: 10%;
