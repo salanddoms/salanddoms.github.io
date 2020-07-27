@@ -181,14 +181,14 @@ header img{
 
 .history img{
 	width: 30%;
-	margin-left: 15px;
+	margin-left: 20px;
 }
 
 #text{
 	display: inline;
 	float: right;
 	width: 30%;
-	margin-right: 15px;
+	margin-left: 20px;
 }
 
 .clearfix:after {
