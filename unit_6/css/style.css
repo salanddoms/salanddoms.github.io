@@ -176,6 +176,7 @@ header img{
 	text-transform: uppercase;
 	color: green;
 	outline: 2px solid green;
+	font-size: 1em;
 }
 
 #btn-history:hover{ 
@@ -221,6 +222,15 @@ header img{
 
 .products div{
 	float: left;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
 }
 
 footer{
