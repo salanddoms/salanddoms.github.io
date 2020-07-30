@@ -208,7 +208,6 @@ footer{
 
 .footer-navigation{
 	float: right;
-	background-color: #636366;
 }
 
 .footer-navigation a{
@@ -238,7 +237,7 @@ footer img{
 
 .social{
 	float: right;
-	background-color: #636366;
+	margin: (0, auto);
 }
 
 .social img{
