@@ -4,7 +4,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+SC&family=Scheherazade&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Assistant:wght@300&family=Yantramanav:wght@300&display=swap');
 
-*{
+* {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
@@ -117,6 +117,7 @@ header img{
 
 .shortcuts a{
 	display: inline-block;
+	float: left;
 	width: 25%;
 	padding: 1em;
 }
@@ -177,11 +178,9 @@ header img{
 	float: left;
 	width: 42%;
 	padding: 4%;
-	border-radius: 8px;
 }
 
-#text{
-	display: inline;
+.text{
 	float: right;
 	width: 42%;
 	padding: 4%;
@@ -197,7 +196,6 @@ header img{
 	float: left;
 	border: 1px solid;
 	padding: 2em;
-	min-height: 12em;
 }
 
 .testimonials{
