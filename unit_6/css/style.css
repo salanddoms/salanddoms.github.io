@@ -117,8 +117,6 @@ header img{
 
 .shortcuts a{
 	display: inline-block;
-	float: left;
-	width: 25%;
 	padding: 1em;
 }
 
@@ -181,7 +179,6 @@ header img{
 }
 
 .text{
-	float: right;
 	width: 42%;
 	padding: 4%;
 	line-height: 2em;
@@ -244,8 +241,8 @@ footer img{
 }
 
 .social{
-	float: right;
-	margin: (0, auto);
+	display: inline-block;
+	text-align: center;
 }
 
 .social img{
