@@ -151,6 +151,7 @@ header img{
 	color: green;
 	outline: 2px solid green;
 	font-size: 2em;
+	padding: 3em;
 }
 
 #btn:hover{ 
@@ -174,6 +175,10 @@ header img{
 	background-color: green; 
 }
 
+.history{
+	margin: (0,auto);
+}
+
 .history img{
 	float: left;
 	width: 42%;
@@ -195,6 +200,7 @@ header img{
 	width: 25%;
 	float: left;
 	padding: 2em;
+	line-height: 1em;
 }
 
 .testimonials{
@@ -212,6 +218,7 @@ blockquote {
 
 footer{
 	background-color: #636366;
+	height: 3em;
 }
 
 .footer-navigation{
