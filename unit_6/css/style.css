@@ -172,10 +172,6 @@ header img{
 	background-color: green; 
 }
 
-.history{
-	text-align: center;
-}
-
 .history img{
 	float: left;
 	width: 42%;
@@ -261,5 +257,4 @@ footer img{
 .social img{
 	width: 10%;
 	display: inline-block;
-	float: right;
 }
