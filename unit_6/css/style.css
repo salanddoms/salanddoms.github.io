@@ -117,7 +117,7 @@ header img{
 
 .shortcuts a{
 	display: inline-block;
-	padding: 1em;
+	padding: 2em;
 }
 
 .shortcuts img{
@@ -165,6 +165,8 @@ header img{
 	color: green;
 	outline: 2px solid green;
 	font-size: 1em;
+	padding: 1em;
+	margin-top: 1em;
 }
 
 #btn-history:hover{ 
@@ -179,6 +181,7 @@ header img{
 }
 
 .text{
+	float: left;
 	width: 42%;
 	padding: 4%;
 	line-height: 2em;
@@ -191,12 +194,12 @@ header img{
 .products div{
 	width: 25%;
 	float: left;
-	border: 1px solid;
 	padding: 2em;
 }
 
 .testimonials{
 	text-align: center;
+	margin-top: 2em;
 }
 
 blockquote {
@@ -242,7 +245,6 @@ footer img{
 
 .social{
 	display: inline-block;
-	text-align: center;
 }
 
 .social img{
