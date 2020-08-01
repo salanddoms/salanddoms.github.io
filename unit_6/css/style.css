@@ -151,7 +151,6 @@ header img{
 	color: green;
 	outline: 2px solid green;
 	font-size: 2em;
-	padding: 3em;
 }
 
 #btn:hover{ 
@@ -200,7 +199,13 @@ header img{
 	width: 25%;
 	float: left;
 	padding: 2em;
-	line-height: 1em;
+}
+
+.products a{
+	font-family: 'Oswald', sans-serif;
+	text-transform: uppercase;
+	color: black;
+	text-decoration: none;
 }
 
 .products a:hover{ 
@@ -222,7 +227,7 @@ blockquote {
 
 footer{
 	background-color: #636366;
-	height: 3em;
+	height: 10em;
 }
 
 .footer-navigation{
