@@ -203,6 +203,10 @@ header img{
 	line-height: 1em;
 }
 
+.products a:hover{ 
+	color: #808080; 
+}
+
 .testimonials{
 	text-align: center;
 	margin-top: 2em;
