@@ -11,16 +11,17 @@
 
 body {
 	background-color: white;
+	font-size: 16px;
 }
 
 h1 {
 	font-family: 'Heebo', sans-serif;
-	font-size: 40px;
+	font-size: 2.5em;
 }
 
 h2 {
 	font-family: 'Yantramanav', sans-serif;
-	font-size: 32px;
+	font-size: 2em;
 }
 
 h3{
@@ -35,13 +36,13 @@ p {
 header img{
 	width: 15%;
 	float: left;
-	margin-bottom: 15px;
+	margin-bottom: 1em;
 }
 
 .utility{
 	float: right;
-	margin-top: 30px;
-	margin-left: 80px;
+	margin-top: 1.875em;
+	margin-left: 5em;
 }
 
 .clearfix:after {
@@ -55,8 +56,8 @@ header img{
 
 .utility img{
 	width: 7%;
-	padding-left: 5px;
-	margin-top: 5px;
+	padding-left: 31.25%;
+	margin-top: 31.25%;
 }
 
 .header-navigation{
@@ -69,7 +70,7 @@ header img{
 	color: black;
 	text-decoration: none;
 	display: inline-block;
-	padding: 5px;
+	padding: 31.25%;
 }
 
 .header-navigation a:hover{ 
@@ -96,7 +97,7 @@ header img{
 	left: 50%;
 	transform: translate(-50%,-50%);
 	color: white;
-	margin: 10px;
+	margin: 62.5%;
 }
 
 .shortcuts a{
@@ -138,8 +139,8 @@ header img{
 .married-text{
 	text-align: bottom-right;
 	position: absolute;
-	bottom: 8px;
-	right: 16px;
+	bottom: 50%;
+	right: 100%;
 	color: white;
 }
 
@@ -217,8 +218,8 @@ blockquote {
   display: block;
   margin-top: 1em;
   margin-bottom: 1em;
-  margin-left: 40px;
-  margin-right: 40px;
+  margin-left: 2.5em;
+  margin-right: 2.5em;
 }
 
 footer{
