@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&family=Ramabhadra&family=Roboto:wght@400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Heebo:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Assistant:wght@300&family=Yantramanav:wght@300&display=swap');
 
@@ -41,8 +41,8 @@ header img{
 
 .utility{
 	float: right;
-	margin-top: 1.875em;
-	margin-left: 5em;
+	margin-top: 30px;
+	margin-left: 80px;
 }
 
 .clearfix:after {
@@ -56,8 +56,8 @@ header img{
 
 .utility img{
 	width: 7%;
-	padding-left: 31.25%;
-	margin-top: 31.25%;
+	padding-left: 5px;
+	margin-top: 5px;
 }
 
 .header-navigation{
@@ -70,7 +70,7 @@ header img{
 	color: black;
 	text-decoration: none;
 	display: inline-block;
-	padding: 31.25%;
+	padding: 5px;
 }
 
 .header-navigation a:hover{ 
@@ -97,7 +97,7 @@ header img{
 	left: 50%;
 	transform: translate(-50%,-50%);
 	color: white;
-	margin: 62.5%;
+	margin: 10px;
 }
 
 .shortcuts a{
@@ -139,8 +139,8 @@ header img{
 .married-text{
 	text-align: bottom-right;
 	position: absolute;
-	bottom: 50%;
-	right: 100%;
+	bottom: 8px;
+	right: 16px;
 	color: white;
 }
 
@@ -172,11 +172,15 @@ header img{
 	background-color: green; 
 }
 
+.history{
+	margin-left: 50%;
+	margin-right: 50%;
+}
+
 .history img{
 	float: left;
 	width: 42%;
 	padding: 4%;
-	margin: (0,auto);
 }
 
 .text{
@@ -184,7 +188,6 @@ header img{
 	width: 42%;
 	padding: 4%;
 	line-height: 2em;
-	margin: (0,auto);
 }
 
 .products img{
