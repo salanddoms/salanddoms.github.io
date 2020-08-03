@@ -176,6 +176,7 @@ header img{
 	float: left;
 	width: 42%;
 	padding: 4%;
+	margin: (0,auto);
 }
 
 .text{
@@ -183,6 +184,7 @@ header img{
 	width: 42%;
 	padding: 4%;
 	line-height: 2em;
+	margin: (0,auto);
 }
 
 .products img{
@@ -256,5 +258,4 @@ footer img{
 
 .social img{
 	width: 10%;
-	display: inline-block;
 }
