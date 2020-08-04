@@ -186,11 +186,11 @@ header img{
 }
 
 .products img{
-	width: 15%;
+	min-width: 15%;
 }
 
 .products div{
-	width: 25%;
+	max-width: 25%;
 	float: left;
 	padding: 2em;
 	line-height: 1.5em;
@@ -262,4 +262,8 @@ footer img{
 
 .social img{
 	width: 10%;
+}
+
+@media only screen and (min-width: 768px){
+
 }
