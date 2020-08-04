@@ -72,7 +72,6 @@ header img{
 	text-decoration: none;
 	display: inline-block;
 	padding: 5px;
-	text-align: right;
 }
 
 .header-navigation a:hover{ 
@@ -196,6 +195,8 @@ header img{
 	float: left;
 	padding: 2em;
 	line-height: 1.5em;
+	min-height: 12em;
+	border: 1px solid black;
 }
 
 .products a{
@@ -263,7 +264,6 @@ footer img{
 	display: inline-block;
 	text-align: center;
 	border: black 1px solid;
-	margin-right: 33%;
 }
 
 .social img{
