@@ -44,6 +44,7 @@ header img{
 	margin-top: 30px;
 	margin-left: 80px;
 	border: 1px black solid;
+	text-align: right;
 }
 
 .clearfix:after {
@@ -255,12 +256,14 @@ li{
 
 footer img{
 	width: 10%;
+	margin-top: 1em;
 }
 
 .social{
 	display: inline-block;
 	text-align: center;
 	border: black 1px solid;
+	margin: 33%;
 }
 
 .social img{
