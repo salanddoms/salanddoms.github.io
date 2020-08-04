@@ -228,6 +228,7 @@ footer{
 
 .footer-navigation{
 	float: right;
+	margin-top: 1em;
 	clear: both;
 }
 
