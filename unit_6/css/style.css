@@ -191,7 +191,7 @@ header img{
 }
 
 .products div{
-	max-width: 25%;
+	width: 25%;
 	float: left;
 	padding: 2em;
 	line-height: 1.5em;
