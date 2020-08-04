@@ -172,6 +172,10 @@ header img{
 	background-color: green; 
 }
 
+.history{
+	margin: 0 auto;
+}
+
 .history img{
 	float: left;
 	width: 42%;
