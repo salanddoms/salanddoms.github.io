@@ -282,8 +282,20 @@ footer img{
 }
 
 @media only screen and (min-width: 320px) and (max-width: 583px){
+	.hero-text{
+		margin: 0;
+	}
+
 	.shortcuts{
-		width: 50%;
+		width: 25%;
+	}
+
+	.history img{
+		min-width: 2em;
+	}
+
+	.text{
+		width: 0;
 	}
 
 	.products div{
