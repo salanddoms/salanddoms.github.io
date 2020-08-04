@@ -44,7 +44,6 @@ header img{
 	margin-top: 30px;
 	margin-left: 80px;
 	border: 1px black solid;
-	text-align: right;
 }
 
 .clearfix:after {
@@ -73,6 +72,7 @@ header img{
 	text-decoration: none;
 	display: inline-block;
 	padding: 5px;
+	text-align: right;
 }
 
 .header-navigation a:hover{ 
@@ -263,7 +263,7 @@ footer img{
 	display: inline-block;
 	text-align: center;
 	border: black 1px solid;
-	margin: 33%;
+	margin-right: 33%;
 }
 
 .social img{
