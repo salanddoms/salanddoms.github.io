@@ -196,6 +196,7 @@ header img{
 	padding: 2em;
 	line-height: 1.5em;
 	border: 1px solid black;
+	min-height: 12em;
 }
 
 .products a{
@@ -271,6 +272,10 @@ footer img{
 
 @media only screen and (max-width: 780px){
 	.products div{
-		min-height: 10em;
+		
+	}
+
+	.products img{
+		min-width: 1em;
 	}
 }
