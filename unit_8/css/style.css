@@ -1,0 +1,277 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&family=Ramabhadra&family=Roboto:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@300&family=Yantramanav:wght@300&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: white;
+	font-size: 16px;
+}
+
+h1 {
+	font-family: 'Heebo', sans-serif;
+	font-size: 2.5em;
+}
+
+h2 {
+	font-family: 'Yantramanav', sans-serif;
+	font-size: 2em;
+}
+
+h3{
+	font-family: 'Oswald', sans-serif;
+	text-transform: uppercase;
+}
+
+p {
+	font-family: 'Raleway', sans-serif;
+}
+
+header img{
+	width: 15%;
+	float: left;
+	margin-bottom: 1em;
+}
+
+.utility{
+	float: right;
+	margin-top: 30px;
+	margin-left: 80px;
+	border: 1px black solid;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+
+.utility img{
+	width: 7%;
+	padding-left: 5px;
+	margin-top: 5px;
+}
+
+.header-navigation{
+	float: left;
+}
+
+.header-navigation a{
+	font-family: 'Oswald', sans-serif;
+	text-transform: uppercase;
+	color: black;
+	text-decoration: none;
+	display: inline-block;
+	padding: 5px;
+}
+
+.header-navigation a:hover{ 
+	color: #808080; 
+}
+
+.hero-image{
+	height: 50%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+
+.hero-image img{
+	width: 100%;
+	background: rgba(0,0,0,0.5);
+}
+
+.hero-text{
+	text-align: center;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	color: white;
+	margin: 10px;
+}
+
+.shortcuts a{
+	font-family: 'Oswald', sans-serif;
+	text-transform: uppercase;
+	color: black;
+	text-decoration: none;
+}
+
+.shortcuts a p:hover{ 
+	color: #808080; 
+}
+
+.shortcuts{
+	text-align: center;
+}
+
+.shortcuts a{
+	display: inline-block;
+	padding: 2em;
+}
+
+.shortcuts img{
+	width: 5em;
+}
+
+.getting-married{
+	height: 50%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+
+.getting-married img{
+	width: 100%;
+}
+
+.married-text{
+	text-align: bottom-right;
+	position: absolute;
+	bottom: 8px;
+	right: 16px;
+	color: white;
+}
+
+#btn{
+	font-family: 'Oswald', sans-serif;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: green;
+	outline: 2px solid green;
+	font-size: 2em;
+}
+
+#btn:hover{ 
+	color: white;
+	background-color: green; 
+}
+
+#btn-history{
+	font-family: 'Oswald', sans-serif;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: green;
+	outline: 2px solid green;
+	font-size: 1em;
+}
+
+#btn-history:hover{ 
+	color: white;
+	background-color: green; 
+}
+
+.history img{
+	float: left;
+	width: 42%;
+	padding: 4%;
+}
+
+.text{
+	float: left;
+	width: 42%;
+	padding: 4%;
+	line-height: 2em;
+}
+
+.products img{
+	width: 15%;
+}
+
+.products div{
+	width: 25%;
+	float: left;
+	padding: 2em;
+	line-height: 1.5em;
+	min-height: 12em;
+	border: 1px solid black;
+}
+
+.products a{
+	font-family: 'Oswald', sans-serif;
+	text-transform: uppercase;
+	color: black;
+	text-decoration: none;
+}
+
+.products a:hover{ 
+	color: #808080; 
+}
+
+.testimonials{
+	text-align: center;
+	margin-top: 2em;
+}
+
+blockquote {
+  display: block;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 2.5em;
+  margin-right: 2.5em;
+}
+
+footer{
+	background-color: #636366;
+	height: 7em;
+}
+
+.footer-navigation{
+	float: right;
+	margin-top: 1em;
+	clear: both;
+}
+
+.footer-navigation a{
+	font-family: 'Oswald', sans-serif;
+	text-transform: uppercase;
+	color: white;
+	text-decoration: none;
+}
+
+.footer-navigation a:hover{ 
+	color: #808080; 
+}
+
+ul{
+	list-style: none;
+}
+
+li{
+	float: left;
+	width: 50%;
+	height: 2em;
+}
+
+footer img{
+	width: 10%;
+	margin-top: 1em;
+}
+
+.social{
+	display: inline-block;
+	text-align: center;
+	border: black 1px solid;
+}
+
+.social img{
+	width: 10%;
+}
+
+@media only screen and (max-width: 780px){
+	.products div{
+		width: 33%;
+	}
+}
