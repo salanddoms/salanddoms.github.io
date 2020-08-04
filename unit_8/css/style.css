@@ -59,10 +59,12 @@ header img{
 	width: 7%;
 	padding-left: 5px;
 	margin-top: 5px;
+	text-align: right;
 }
 
 .header-navigation{
 	float: left;
+	text-align: right;
 }
 
 .header-navigation a{
@@ -196,7 +198,6 @@ header img{
 	padding: 2em;
 	line-height: 1.5em;
 	border: 1px solid black;
-	min-height: 12em;
 }
 
 .products a{
@@ -272,10 +273,10 @@ footer img{
 
 @media only screen and (max-width: 780px){
 	.products div{
-		
+		width: 33%;
 	}
 
 	.products img{
-		min-width: 1em;
+		min-width: 2em;
 	}
 }
