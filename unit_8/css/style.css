@@ -195,7 +195,6 @@ header img{
 	float: left;
 	padding: 2em;
 	line-height: 1.5em;
-	min-height: 15em;
 	border: 1px solid black;
 }
 
@@ -271,5 +270,7 @@ footer img{
 }
 
 @media only screen and (max-width: 780px){
-
+	.products div{
+		min-height: 10em;
+	}
 }
