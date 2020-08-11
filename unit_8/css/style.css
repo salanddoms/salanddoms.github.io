@@ -59,7 +59,7 @@ header img{
 
 .utility img{
 	width: 1.5em;
-	margin-left: 1em;
+	margin-left: 0.5em;
 	margin-right: 1em;
 }
 
@@ -83,7 +83,6 @@ header img{
 .hero-image{
 	background-image: url(../images/heroimage.jpg);
 	min-height: 90vh;
-	padding: 20 2 10em;
 	background-position: right;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -92,7 +91,6 @@ header img{
 
 .hero-image img{
 	width: 100%;
-	background: rgba(0,0,0,0.5);
 }
 
 .hero-text{
@@ -152,17 +150,32 @@ header img{
 	font-family: 'Oswald', sans-serif;
 	text-decoration: none;
 	text-transform: uppercase;
-	color: green;
-	outline: 2px solid green;
+	color: white;
+	background-color: green;
+	border: 2px solid green;
 	font-size: 2em;
+}
+
+#btn:hover{ 
+	color: green;
+	background-color: white; 
+}
+
+#btn-married{
+	font-family: 'Oswald', sans-serif;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: white;
+	background-color: green;
+	font-size: 1em;
 	margin-top: 1em;
 	display: inline-block;
 	padding: .25em;
 }
 
-#btn:hover{ 
-	color: white;
-	background-color: green; 
+#btn-married:hover{ 
+	color: green;
+	background-color: white; 
 }
 
 .history{
@@ -176,11 +189,28 @@ header img{
 	padding: 4%;
 }
 
+#btn-history{
+	font-family: 'Oswald', sans-serif;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: green;
+	border: 2px solid green;
+	font-size: 1em;
+	margin-top: 1em;
+	display: inline-block;
+	padding: .25em;
+}
+
+#btn-history:hover{ 
+	color: white;
+	background-color: green; 
+}
+
 .text{
 	float: left;
 	width: 50%;
 	padding: 4%;
-	line-height: 1.2em;
+	line-height: 1.5em;
 }
 
 .products img{
@@ -276,17 +306,9 @@ footer img{
 	}
 }
 
-@media only screen and (max-width: 583px){
-	.hero-text{
-		font-size: 0.5em;
-	}
-
-	.shortcuts{
-		width: 25%;
-	}
-
+@media only screen and (max-width: 824px){
 	.products div{
-		width: 50%
+		min-height: 14em;
 	}
 
 	.products img{
@@ -294,3 +316,55 @@ footer img{
 	}
 }
 
+@media only screen and (max-width: 713px){
+	.products div{
+		width: 33%;
+	}
+
+	.products img{
+		min-width: 2em;
+	}
+
+	footer img{
+		min-width: 2em;
+	}
+}
+
+@media only screen and (max-width: 583px){
+	.products div{
+		width: 50%
+	}
+
+	.products img{
+		min-width: 2em;
+	}
+
+	.history img{
+		float: none;
+	}
+
+	.text{
+		float: none;
+	}
+
+	footer img{
+		min-width: 2em;
+	}
+}
+
+@media only screen and (max-width: 562px){
+	header img{
+		margin: auto;
+	}
+
+	.utility{
+		margin: auto;
+	}
+}
+
+@media only screen and (max-width: 587px){
+	.shortcuts a{
+		width: 50%;
+		float: left;
+	}
+}
