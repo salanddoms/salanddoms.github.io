@@ -295,6 +295,7 @@ footer img{
 	display: inline-block;
 	text-align: center;
 	border: black 1px solid;
+	margin: auto;
 }
 
 .social img{
