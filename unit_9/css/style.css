@@ -83,7 +83,7 @@ header img{
 .hero-image{
 	background-image: url(../images/heroimage.jpg);
 	min-height: 90vh;
-	background-position: right;
+	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
 	position: relative;
@@ -98,7 +98,7 @@ header img{
 	top: 40%;
 	left: 10%;
 	color: rgba(0,0,0,.75);
-	padding: 7em 0;
+	padding: 8em 0;
 	margin: 10px;
 	font-size: 2em;
 	width: 16em;
@@ -172,7 +172,7 @@ header img{
 	font-size: 2em;
 	margin-top: 1em;
 	display: inline-block;
-	padding: .25em;
+	padding: .45em;
 }
 
 #btn-married:hover{ 
@@ -183,6 +183,7 @@ header img{
 .history{
 	max-width: 80em;
 	margin: auto;
+	position: relative;
 }
 
 .history h2{
@@ -213,10 +214,17 @@ header img{
 }
 
 .text{
-	float: left;
+	position: absolute;
 	width: 50%;
 	padding: 4%;
+	top: 50%;
+	left: 50%
+	transform: translateY(-50%);
 	line-height: 1.5em;
+}
+
+.products h2{
+	padding-left: 3em;
 }
 
 .products img{
@@ -257,12 +265,23 @@ blockquote {
 
 footer{
 	background-color: #636366;
+	text-align: center;
+	padding: 4em 2em;
+	position: relative;
+}
+
+footer > img{
+	float: left;
+	width: 12em;
 }
 
 .footer-navigation{
 	float: right;
 	margin-top: 1em;
-	clear: both;
+	position: absolute;
+	top: 50%;
+	right: 1em;
+	transform: translateY(-50%);
 }
 
 .footer-navigation a{
@@ -293,13 +312,15 @@ footer img{
 
 .social{
 	display: inline-block;
-	text-align: center;
-	border: black 1px solid;
 	padding: 10px;
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
 }
 
 .social img{
-	width: 10%;
+	width: 5em;
+	padding: 0.5em;
 }
 
 @media only screen and (max-width: 977px){
