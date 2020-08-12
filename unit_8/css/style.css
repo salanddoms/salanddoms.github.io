@@ -155,7 +155,6 @@ header img{
 	background-color: green;
 	font-size: 1em;
 	padding: .25em;
-	margin-top: 3em;
 }
 
 #btn:hover{ 
@@ -345,19 +344,18 @@ footer img{
 
 @media only screen and (max-width: 583px){
 	.hero-image{
-		background-image: url(../images/canoli.jpg);
+		background-image: none;
+		background-color: gray;
 	}
 
 	.hero-text{
-		top: 40%;
-		left: 10%;
 		color: rgba(0,0,0,.75);
 		padding: 6em 0;
 		margin: 10px;
 		font-size: 2em;
-		width: 10em;
+		width: 14em;
 	}
-	
+
 	.products div{
 		width: 50%
 	}
