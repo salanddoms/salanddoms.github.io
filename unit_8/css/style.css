@@ -87,6 +87,7 @@ header img{
 	background-repeat: no-repeat;
 	background-size: cover;
 	position: relative;
+	padding: 20 2 10em;
 }
 
 .hero-image img{
@@ -97,7 +98,7 @@ header img{
 	top: 40%;
 	left: 10%;
 	color: rgba(0,0,0,.75);
-	padding: 6em 0;
+	padding: 7em 0;
 	margin: 10px;
 	font-size: 2em;
 	width: 16em;
@@ -155,7 +156,6 @@ header img{
 	background-color: green;
 	font-size: 1em;
 	padding: .25em;
-	margin: 4em;
 }
 
 #btn:hover{ 
@@ -347,10 +347,11 @@ footer img{
 	.hero-image{
 		background-image: none;
 		background-color: gray;
+		min-height: 70vh;
 	}
 
 	.hero-text{
-		color: rgba(0,0,0,.75);
+		color: white
 		padding: 6em 0;
 		margin: 10px;
 		font-size: 2em;
